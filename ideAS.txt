@@ -1,0 +1,51 @@
+Idea Number	Category	Idea Description
+1	Realistic & Grounded	The Local Hero: Take your favorite lower-league team from your country and guide them to domestic and European glory, using mostly homegrown talent.
+2	Realistic & Grounded	Financial Fair Play Challenge: Start with a club in a top league with significant debt and focus on selling high-value players and promoting youth to balance the books and compete.
+3	Realistic & Grounded	The "Moneyball" Approach: Join a club with limited resources and focus on signing undervalued players with high potential, using scouting reports meticulously.
+4	Realistic & Grounded	Rise of the Robot: Pick a relatively unknown team in a strong league (e.g., Bundesliga 2, Championship) and aim to become a consistent European contender within 5-7 seasons.
+5	Realistic & Grounded	The Fallen Giant: Take over a historically successful club that has fallen on hard times (e.g., Hamburg, Sunderland, Parma) and restore them to their former glory.
+6	Realistic & Grounded	The National Team Builder: Focus solely on developing players from one specific nation within your club, and then manage that national team to World Cup success.
+7	Realistic & Grounded	The "Oil Money" Counter: Join a smaller club in a league dominated by big-spending teams (e.g., Ligue 1, Premier League) and try to break their dominance without excessive spending.
+8	Realistic & Grounded	The Brexit Effect: Play as a Premier League team and implement a strict "no foreign players" policy, relying solely on British talent.
+9	Realistic & Grounded	The Loan Army: Focus on signing young, high-potential players on loan, developing them, and then selling them for profit to reinvest in your squad.
+10	Realistic & Grounded	The One-Club Man Manager: Pick one club and commit to managing them for 15 full seasons, building a dynasty.
+11	Challenging & Hardcore	Youth Academy Only: Sell all your current players and only use players generated from your youth academy. No transfers in.
+12	Challenging & Hardcore	Road to Glory (Lowest League): Start in the lowest available league (e.g., League Two in England, 3. Liga in Germany) and achieve Champions League glory.
+13	Challenging & Hardcore	Zero Transfers In: Can you win trophies without buying a single player? Rely on youth and existing squad.
+14	Challenging & Hardcore	The Retirement Home: Sign only players over 30 and try to win a major trophy before they all retire.
+15	Challenging & Hardcore	The Short Stature Team: Build a team where no player is taller than 5'8" (173cm).
+16	Challenging & Hardcore	The "Unwanted" XI: Only sign players who are transfer listed or on the verge of being released by other clubs.
+17	Challenging & Hardcore	The One Nation Challenge: Your entire 23-man squad must be from the same country (excluding youth academy players who can be any nationality).
+18	Challenging & Hardcore	The Underdog Champion: Pick a team predicted to finish last in their league and win the title in the first season.
+19	Challenging & Hardcore	The "Hard Mode" Slider Save: Max out AI difficulty sliders (shot error, pass error, GK ability, etc.) for a truly brutal challenge.
+20	Challenging & Hardcore	Financial Ruin & Recovery: Purposely bankrupt your club (e.g., by overspending on wages) and then try to bring them back from the brink.
+21	Fun & Unique Concepts	The Global Scouter: Pick a club and only sign players from one specific, less common region (e.g., Scandinavia, Eastern Europe, South America outside of Brazil/Argentina).
+22	Fun & Unique Concepts	The "Dream Team" Creator: Sign a specific set of players you've always wanted to play with, regardless of their current club or cost.
+23	Fun & Unique Concepts	The Player-Manager Legend: Create a player and play as a player-manager, aiming to win the Ballon d'Or while leading your team to glory.
+24	Fun & Unique Concepts	The "Regen" Hunter: Focus on finding the "regenerations" of real-life footballing legends and building a team around them.
+25	Fun & Unique Concepts	The "Invincibles" Challenge: Try to go an entire league season unbeaten.
+26	Fun & Unique Concepts	The Cup Specialist: Prioritize winning cup competitions over the league title, even if it means sacrificing league form.
+27	Fun & Unique Concepts	The "Youth Exodus" Challenge: Constantly sell your best youth academy graduates for profit and see how long you can maintain success.
+28	Fun & Unique Concepts	The Free Agent Fanatic: Only sign free agents. Can you build a competitive squad without spending transfer fees?
+29	Fun & Unique Concepts	The "Position Specific" Development: Pick one position (e.g., ST, CAM, CB) and dedicate all your youth academy and transfer efforts to finding and developing world-class players in that role.
+30	Fun & Unique Concepts	The "Rivalry Destroyer": Pick a club with a fierce local rival and make it your mission to completely dominate them in every match and finish above them every season.
+31	Creative & Story-Driven	The "Redemption Arc": Sign players who have had difficult careers or fallen out of favor at other clubs and help them rediscover their form.
+32	Creative & Story-Driven	The "Under-23" Revolution: Only sign and play players under the age of 23.
+33	Creative & Story-Driven	The "Over-30" Experience: Only sign and play players over the age of 30.
+34	Creative & Story-Driven	The "New Era" Project: Take over a club that just got relegated and completely rebuild them with a new philosophy.
+35	Creative & Story-Driven	The "Unwanted Captain": Promote a low-rated, older player to captain and build a team around their leadership, even if their stats aren't great.
+36	Creative & Story-Driven	The "Cult Hero" Maker: Identify a young player with potential and make them the face of your club, developing them into a legend.
+37	Creative & Story-Driven	The "Style Over Substance": Focus on creating a beautiful, possession-based, tiki-taka style of play, even if it means sacrificing some defensive solidity.
+38	Creative & Story-Driven	The "Counter-Attacking Kings": Build a team entirely around blistering counter-attacks, with fast attackers and solid defenders.
+39	Creative & Story-Driven	The "Set Piece Specialists": Focus on signing players with high set-piece attributes and build your offensive strategy around corners and free kicks.
+40	Creative & Story-Driven	The "Financial Takeover" Story: Imagine your club has just received a massive financial injection. How would you spend it responsibly to build a sustainable powerhouse?
+41	Specific & Niche	The Scottish Challenge: Take a Scottish Premiership team and win the Champions League.
+42	Specific & Niche	The Turkish Delight: Guide a Turkish Super Lig team to European glory.
+43	Specific & Niche	The MLS Expansion Team: Pick an MLS team and try to win the CONCACAF Champions League and then challenge in the Club World Cup.
+44	Specific & Niche	The Dutch Masterclass: Take a Dutch Eredivisie team and develop a squad of young, technically gifted players who can compete with Europe's elite.
+45	Specific & Niche	The Latin American Invasion: Sign only players from South or Central America, regardless of the league you're in.
+46	Specific & Niche	The African Dream: Focus on scouting and signing top talent from African nations.
+47	Specific & Niche	The Asian Ascent: Build a team predominantly with Asian players and try to make a mark in Europe.
+48	Specific & Niche	The Irish Gem: Take an Irish Premier Division team to European relevance.
+49	Specific & Niche	The Scandinavian Success Story: Pick a club from Sweden, Norway, or Denmark and build them into a European force.
+50	Specific & Niche	The CONMEBOL Conqueror: Pick an Argentinian club (like River Plate or Boca Juniors) or a club from another available South American league (if any are present in your specific FIFA/FC version) and aim to dominate the Copa Libertadores/Sudamericana, establishing your club as the premier talent producer and trophy winner in South America before eventually moving to Europe.
