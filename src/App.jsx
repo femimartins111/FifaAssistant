@@ -18,8 +18,8 @@ export default function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div>
-          <h1>FIFA Assistant</h1>
-          <p className="muted">Modular React frontend built from your Python feature set.</p>
+          <h1>FC Hub</h1>
+          <p className="muted">Everything FC.</p>
         </div>
 
         <nav className="nav-list">
