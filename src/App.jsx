@@ -18,8 +18,8 @@ export default function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div>
-          <h1>FC Hub</h1>
-          <p className="muted">Everything FC.</p>
+          <h1>FC Career Hub</h1>
+          <p className="muted">Everything FC career mode focused.</p>
         </div>
 
         <nav className="nav-list">
