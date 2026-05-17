@@ -1,0 +1,288 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f5f7fb;
+  background: #0d1117;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #0d1117 0%, #111827 100%);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+input,
+select {
+  border-radius: 12px;
+  border: 1px solid #2c3440;
+  background: #101722;
+  color: #f5f7fb;
+  padding: 0.8rem 0.95rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  border-right: 1px solid #202938;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background: rgba(7, 11, 18, 0.95);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.card {
+  background: rgba(16, 23, 34, 0.9);
+  border: 1px solid #253043;
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: #1c2533;
+  color: white;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+}
+
+.status-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.page-header h2,
+.sidebar h1,
+.card h3 {
+  margin-top: 0;
+}
+
+.muted {
+  color: #94a3b8;
+}
+
+.primary-btn {
+  background: #22c55e;
+  color: #04130b;
+  border: none;
+  font-weight: 700;
+}
+
+.secondary-btn {
+  background: #1f2937;
+}
+
+.error-text {
+  color: #fca5a5;
+}
+
+.hero-grid,
+.entity-grid,
+.generator-grid,
+.chart-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero-grid,
+.entity-grid.two-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.entity-grid {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.generator-grid,
+.chart-grid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.toolbar,
+.button-row,
+.pill-grid,
+.entity-top,
+.form-stack,
+.mini-grid {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.toolbar,
+.form-stack {
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.toolbar-grid-2,
+.toolbar-grid-3,
+.mini-grid {
+  display: grid;
+}
+
+.toolbar-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.toolbar-grid-3,
+.mini-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.search-input {
+  width: 100%;
+}
+
+.entity-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.entity-top {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.entity-top.single-image {
+  justify-content: center;
+}
+
+.player-face,
+.team-logo {
+  width: 88px;
+  height: 88px;
+  border-radius: 18px;
+  object-fit: cover;
+  background: #1f2937;
+}
+
+.club-badge {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  background: white;
+  border-radius: 14px;
+  padding: 0.35rem;
+}
+
+.image-fallback {
+  display: grid;
+  place-items: center;
+  color: #94a3b8;
+  background: #17202d;
+}
+
+.pill-grid {
+  flex-wrap: wrap;
+}
+
+.stat-pill {
+  min-width: 90px;
+  padding: 0.6rem 0.75rem;
+  border-radius: 14px;
+  background: #182230;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #273142;
+  text-align: left;
+}
+
+.clean-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.ordered-list {
+  list-style: decimal;
+}
+
+.chart-wrap {
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 960px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #202938;
+  }
+
+  .hero-grid,
+  .entity-grid.two-columns,
+  .toolbar-grid-2,
+  .toolbar-grid-3,
+  .mini-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}
